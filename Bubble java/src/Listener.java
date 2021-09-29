@@ -41,8 +41,7 @@ public class Listener implements KeyListener {
 		if(key == e.VK_RIGHT){
 			GamePlayer.right = false;
 		}
-		
-		 
+				 
 		if(key == e.VK_SPACE){
 		   GamePlayer.isFiring = false;
 		}
