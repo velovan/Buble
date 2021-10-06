@@ -54,7 +54,6 @@ public class GamePlayer {
 	if(right && x < GamePanel.WIDTH - r){
 		dx = speed;
 	 }
-	
 	if(up &&  left || up && right || down && left || down && right){
 	  double angle = Math.toRadians(45);
 	
@@ -70,8 +69,7 @@ public class GamePlayer {
 	if(isFiring){
 		GamePanel.bullets.add(new Bullets(268,(int) x + 1 ,(int)  y));
 		GamePanel.bullets.add(new Bullets(272,(int) x + 1,(int)  y)); 
-     	}
-	
+     	  }
 	}
 	
 	public void draw(Graphics2D g){
