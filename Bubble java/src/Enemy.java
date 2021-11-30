@@ -35,13 +35,10 @@ public class Enemy {
     }
     	
     public void update(){
-    	
     	x += dx;
     	y  += dy;
-    	
     	if(x < 0 && dx < 0) dx = -dx;
 		if(x > GamePanel.WIDTH && dx > 0)dx = -dx;
-		
 		if(y < 0 && dy < 0) dy = -dy;
 		if(y > GamePanel.HEIGHT && dy > 0)dy = -dy;
     }
