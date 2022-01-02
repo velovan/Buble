@@ -123,7 +123,7 @@ public class GamePanel extends JPanel  implements Runnable {
 			bullets.get(i).draw(g);
 			boolean remove = bullets.get(i).remove();
 			if(remove){
-				bullets.remove(i);
+			bullets.remove(i);
 			}
 		    System.out.println(bullets.size());
 		}
